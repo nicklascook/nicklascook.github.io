@@ -1,0 +1,112 @@
+body{
+font-family: 'PT Sans', sans-serif;, Helvetica, Arial, sans-serif;
+}
+
+.container-fluid{
+  padding: 0;
+
+}
+
+.nav-item a{
+  color: black;
+  font-size: 1.1em;
+}
+
+.activenav a{
+  color: blue;
+}
+
+.navbar-brand{
+  color: grey;
+  margin-right: 50px;
+  font-size: 1.3em;
+}
+
+.navbar-toggler{
+  margin-left: -50px;
+}
+
+
+.headertexthome{
+  margin-top: 100px;
+  margin-left: 20px;
+}
+
+.bodyportfolio{
+  background-color: #e4f4f3;
+  min-height: 100%;
+}
+
+.portfolio h1{
+  margin-top: 40px;
+  margin-bottom: 30px;
+  color: #26A65B;
+  font-size: 3.5em;
+
+}
+
+.portfolio h4{
+  margin-bottom: 20px;
+  color: #53554F;
+}
+
+.portfolio p{
+  color: #3F4441;
+}
+
+.portfolio-image{
+  margin-left: 10px;
+  margin-top: -120px;
+  transform: skewY(6deg);
+  border: solid 2px rgb(146, 176, 191);
+  -webkit-box-shadow: 11px 10px 33px 0px rgba(66,66,66,0.7);
+  -moz-box-shadow: 11px 10px 33px 0px rgba(66,66,66,0.7);
+  box-shadow: 11px 10px 33px 0px rgba(66,66,66,0.7);
+}
+
+.std-desktop{
+  position: relative;
+  top: 20px;
+  opacity: 0;
+  left: 100px;
+
+}
+.std-mobile{
+  position: absolute;
+  bottom: 100px;
+  left: 300px;
+  opacity: 0;
+}
+
+.pushcol{
+  height: 2px;
+}
+
+.portfolio-hr{
+  border: 1px solid #019875;
+  width: 80%;
+  margin-top: -20px;
+
+}
+
+.portfolio-row-2{
+  margin-top: 100px;
+}
+
+.rtm-image{
+  border: 1px solid black;
+}
+
+.rtm-desktop{
+  position: relative;
+  top: 20px;
+  opacity: 0;
+  left: 100px;
+
+}
+.rtm-mobile{
+  position: absolute;
+  bottom: -100px;
+  left: 100px;
+  opacity: 0;
+}

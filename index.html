@@ -1,1 +1,166 @@
-<DOCTYPE !html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Nicklas Cook - Front End Dev</title>
+  <meta name="author" content="Nicklas Cook">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="crossorigin="anonymous"></script>
+  <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container-fluid bodyportfolio">
+    <!-- Navbar -->
+    <nav class="navbar navbar-inverse bg-faded">
+      <div class="container">
+        <!-- Burger button hidden-sm-up -->
+        <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#CollapseNavbar">
+          &#9776;
+        </button>
+        <!-- Navbar Brand -->
+        <a href="" class="navbar-brand mb-0 navbarname">Nicklas Cook</a>
+        <!-- Main Navbar items -->
+        <div class="collapse navbar-toggleable-xs " id="CollapseNavbar">
+          <ul class="nav navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item activenav">
+                  <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+          </ul>
+
+        </div> <!--/collapse navbar-toggleable-xs -->
+      </div> <!--/navbar container -->
+    </nav> <!-- /navbar -->
+
+<!-- Start main content -->
+<div class="row"> <!-- row -->
+  <div class="portfolio col-lg-5 col-xs-12 text-xs-center offset-lg-1">
+    <h1>Something To Do</h1>
+    <hr class="portfolio-hr">
+  </div>
+  <div class="col-lg-7 pushcol"> <!-- start on new line -->
+  </div>
+</div> <!-- /row -->
+
+<div class="row"> <!-- row -->
+  <div class="col-lg-5 col-xs-10 offset-xs-1 text-xs-center portfolio"> <!-- Secondary text -->
+    <h4>For when you're not quite sure of what to do with today.</h4>
+  </div> <!-- /Secondary text -->
+
+  <div class="col-lg-6 col-xs-10 offset-xs-1 portfolio"> <!-- paragraph text -->
+    <p>
+      This was my first large solo project. Users can filter by a number of options in order to select activities that appeal to them. Additionally, by hovering over any box, a 'Learn More' button appears that performs an 'I'm Feeling Lucky' Google search with the activity name as well as 'learn' & 'reddit' search terms.
+    <br><br>
+    I learnt a bunch of new things whilst setting up this project. Including setting up and configuring a LAMP web stack remotely, SSH keys and SFTP file transfer. Frameworks used include Bootstrap and jQuery.
+    </p>
+
+  </div> <!-- /paragraph text -->
+
+  <div class="col-lg-4" id="selector"> <!-- std images -->
+    <img class="portfolio-image std-desktop hidden-md-down" src="images/somethingtodo-desktop.png" alt="" />
+    <img class="portfolio-image std-mobile hidden-md-down" src="images/somethingtodo-mobile.png" alt="" />
+  </div> <!-- /std images -->
+
+</div><!-- /row -->
+
+<!--- END OF FIRST SITE OF PORTFOLIO ----------------------->
+
+<div class="row portfolio-row-2"> <!-- row -->
+  <div class="portfolio col-lg-5 col-xs-12 text-xs-center offset-lg-1">
+    <h1>Radio Time Machine</h1>
+    <hr class="portfolio-hr">
+  </div>
+  <div class="col-lg-7 pushcol"> <!-- start on new line -->
+  </div>
+</div> <!-- /row -->
+
+<div class="row"> <!-- row -->
+  <div class="col-lg-5 col-xs-10 offset-xs-1 text-xs-center portfolio"> <!-- Secondary text -->
+    <h4>Experience the radio from any year you'd like.<h4>
+  </div> <!-- /Secondary text -->
+
+  <div class="col-lg-6 col-xs-10 offset-xs-1 portfolio"> <!-- paragraph text -->
+    <p>
+      This was my introduction to HTML, CSS and Javascript. I worked in a team of three - planning, designing and executing this idea. The radio plays news, radio interviews and other media from a selected year. However, due to an issue with the API, we were not able to also get music to function correctly, and therefore were unable to implement that.
+    <br><br>
+    My tasks included: <ul>
+      <li>
+        Designing and building each visual element from scratch in Photoshop.
+      </li>
+      <li>
+        Adding the functionality and animations for the dials.
+      </li>
+      <li>
+        Setting up the HTML document and positioning the elements.
+      </li>
+    </ul>
+
+  </div> <!-- /paragraph text -->
+
+  <div class="col-lg-4" id="selector"> <!-- std images -->
+    <img class="portfolio-image rtm-desktop  hidden-md-down" src="images/radiotimemachine-desktop.png" alt="" />
+    <img class="portfolio-image rtm-mobile rtm-image  hidden-md-down" src="images/radiotimemachine-mobile.png" alt="" />
+  </div> <!-- /std images -->
+
+</div><!-- /row -->
+
+
+
+
+
+
+
+
+<!-- /main content -->
+
+<!-- Footer to be added later -->
+<div class="footer">
+
+
+</div><!--/footer -->
+
+
+<!-- END container-fluid -->
+</div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+
+</body>
+</html>
