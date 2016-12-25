@@ -38,14 +38,14 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container-fluid bodyportfolio">
     <!-- Navbar -->
-    <nav class="navbar navbar-inverse bg-faded">
+    <nav class="navbar navbar-inverse navstyle">
       <div class="container">
         <!-- Burger button hidden-sm-up -->
         <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#CollapseNavbar">
-          &#9776;
+          <span class="icon-bars"></span>
         </button>
         <!-- Navbar Brand -->
-        <a href="" class="navbar-brand mb-0 navbarname">Nicklas Cook</a>
+        <a href="#" class="navbar-brand mb-0 navbarname">Nicklas Cook</a>
         <!-- Main Navbar items -->
         <div class="collapse navbar-toggleable-xs " id="CollapseNavbar">
           <ul class="nav navbar-nav">
@@ -63,81 +63,71 @@
                 </li>
           </ul>
 
+          <ul class="nav navbar-nav socialmediaicons float-md-right hidden-sm-down">
+            <li class="nav-item">
+              <a href="#"><span class="icon-paper-plane"></span></a>
+            </li>
+            <li class="nav-item">
+              <a href="#"><span class="icon-github-with-circle"></span></a>
+            </li>
+            <li class="nav-item">
+              <a href="#"><span class="icon-skype"></span></a>
+            </li>
+
+          </ul>
+
         </div> <!--/collapse navbar-toggleable-xs -->
       </div> <!--/navbar container -->
     </nav> <!-- /navbar -->
 
 <!-- Start main content -->
-<div class="row"> <!-- row -->
-  <div class="portfolio col-lg-5 col-xs-12 text-xs-center offset-lg-1">
-    <h1>Something To Do</h1>
-    <hr class="portfolio-hr">
+
+<div class="row">
+  <!--
+  <div class="col-xs-12 col-sm-9 mx-auto col-md-4 offset-md-1 portfoliobox">
+    <div class="portfoliobox-std">
+      <p>text</p>
+    </div>
   </div>
-  <div class="col-lg-7 pushcol"> <!-- start on new line -->
+
+
+  <div class="col-xs-12 col-sm-9 mx-auto col-md-4 offset-md-1 portfoliobox">
+    <div class="portfoliobox-std">
+      <p>text</p>
+    </div>
   </div>
-</div> <!-- /row -->
+-->
 
-<div class="row"> <!-- row -->
-  <div class="col-lg-5 col-xs-10 offset-xs-1 text-xs-center portfolio"> <!-- Secondary text -->
-    <h4>For when you're not quite sure of what to do with today.</h4>
-  </div> <!-- /Secondary text -->
+<div class="portfoliobox hidden-md-down">
+    <div class="std-content">
 
-  <div class="col-lg-6 col-xs-10 offset-xs-1 portfolio"> <!-- paragraph text -->
-    <p>
-      This was my first large solo project. Users can filter by a number of options in order to select activities that appeal to them. Additionally, by hovering over any box, a 'Learn More' button appears that performs an 'I'm Feeling Lucky' Google search with the activity name as well as 'learn' & 'reddit' search terms.
-    <br><br>
-    I learnt a bunch of new things whilst setting up this project. Including setting up and configuring a LAMP web stack remotely, SSH keys and SFTP file transfer. Frameworks used include Bootstrap and jQuery.
-    </p>
+    </div>
+    <div class="box-label-std">
+      Something To Do
+    </div>
+  </div>
+  <div class="portfoliobox hidden-md-down">
+      <div class="rtm-content">
+        
+      </div>
+      <div class="box-label-rtm">
+        Radio Time Machine
+      </div>
+    </div>
 
-  </div> <!-- /paragraph text -->
 
-  <div class="col-lg-4" id="selector"> <!-- std images -->
-    <img class="portfolio-image std-desktop hidden-md-down" src="images/somethingtodo-desktop.png" alt="" />
-    <img class="portfolio-image std-mobile hidden-md-down" src="images/somethingtodo-mobile.png" alt="" />
-  </div> <!-- /std images -->
+</div>
 
-</div><!-- /row -->
+
+
+
+
+
+
+
 
 <!--- END OF FIRST SITE OF PORTFOLIO ----------------------->
 
-<div class="row portfolio-row-2"> <!-- row -->
-  <div class="portfolio col-lg-5 col-xs-12 text-xs-center offset-lg-1">
-    <h1>Radio Time Machine</h1>
-    <hr class="portfolio-hr">
-  </div>
-  <div class="col-lg-7 pushcol"> <!-- start on new line -->
-  </div>
-</div> <!-- /row -->
-
-<div class="row"> <!-- row -->
-  <div class="col-lg-5 col-xs-10 offset-xs-1 text-xs-center portfolio"> <!-- Secondary text -->
-    <h4>Experience the radio from any year you'd like.<h4>
-  </div> <!-- /Secondary text -->
-
-  <div class="col-lg-6 col-xs-10 offset-xs-1 portfolio"> <!-- paragraph text -->
-    <p>
-      This was my introduction to HTML, CSS and Javascript. I worked in a team of three - planning, designing and executing this idea. The radio plays news, radio interviews and other media from a selected year. However, due to an issue with the API, we were not able to also get music to function correctly, and therefore were unable to implement that.
-    <br><br>
-    My tasks included: <ul>
-      <li>
-        Designing and building each visual element from scratch in Photoshop.
-      </li>
-      <li>
-        Adding the functionality and animations for the dials.
-      </li>
-      <li>
-        Setting up the HTML document and positioning the elements.
-      </li>
-    </ul>
-
-  </div> <!-- /paragraph text -->
-
-  <div class="col-lg-4" id="selector"> <!-- std images -->
-    <img class="portfolio-image rtm-desktop  hidden-md-down" src="images/radiotimemachine-desktop.png" alt="" />
-    <img class="portfolio-image rtm-mobile rtm-image  hidden-md-down" src="images/radiotimemachine-mobile.png" alt="" />
-  </div> <!-- /std images -->
-
-</div><!-- /row -->
 
 
 
@@ -151,7 +141,9 @@
 <!-- Footer to be added later -->
 <div class="footer">
 
-
+<p class="copyrighttext float-xs-right">
+  ©2016 Nicklas Cook. All Rights Reserved.
+</p>
 </div><!--/footer -->
 
 

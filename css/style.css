@@ -6,27 +6,178 @@ font-family: 'PT Sans', sans-serif;, Helvetica, Arial, sans-serif;
   padding: 0;
 
 }
+/* ICOMOON ----------------------------------------------------------------------------------------------*/
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?3fhxc8');
+  src:  url('../fonts/icomoon.eot?3fhxc8#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?3fhxc8') format('truetype'),
+    url('../fonts/icomoon.woff?3fhxc8') format('woff'),
+    url('../fonts/icomoon.svg?3fhxc8#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-paper-plane:before {
+  content: "\e900";
+}
+.icon-skype:before {
+  content: "\e901";
+}
+.icon-github-with-circle:before {
+  content: "\e902";
+}
+.icon-bars:before {
+  content: "\e903";
+}
+/* /ICOMOON ----------------------------------------------------------------------------------------------*/
+
+/* NAVIGATION BAR ----------------------------------------------------------------------------------------------*/
+.navbar{
+  border-radius: 0;
+}
 .nav-item a{
-  color: black;
+  color: white;
   font-size: 1.1em;
 }
 
 .activenav a{
-  color: blue;
+  color: #01a093;
+}
+a:hover, .nav-item :hover, .navbarname :hover{
+  color: #20ecbe;
 }
 
+
 .navbar-brand{
-  color: grey;
+  color: #e4f4f3;
   margin-right: 50px;
   font-size: 1.3em;
 }
 
 .navbar-toggler{
   margin-left: -50px;
+  color: white;
+}
+
+.navstyle{
+  background-color: #1b1b1b;
+}
+
+.socialmediaicons{
+  color: white;
+  font-size: 1.2em;
+  margin-top: 5px;
+  text-decoration: none;
+}
+
+.socialmediaicons a:link{
+  text-decoration: none;
 }
 
 
+
+/* /NAVIGATION BAR ----------------------------------------------------------------------------------------------*/
+
+/* Footer ----------------------------------------------------------------------------------------------*/
+.footer{
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  background-color: black;
+  height: 6vh;
+}
+
+.copyrighttext{
+  color: rgba(156, 156, 156, 0.5);
+  margin-top: 12px;
+  font-size: 0.8em;
+  margin-right: 10px;
+}
+
+/* /Footer ----------------------------------------------------------------------------------------------*/
+
+/* Portfolio main page ----------------------------------------------------------------------------------------------*/
+
+
+
+.portfoliobox {
+  border: 1px solid #01c6ae;
+  position: relative;
+  text-align: center;
+  width: 30%;
+  display: inline-block;
+  margin-top: 10vh;
+  margin-left: 13.5vw;
+}
+
+.portfoliobox:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.std-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/std-thumbnail.png");
+  background-position: top;
+  background-repeat: no-repeat;
+
+  font-size: 2em;
+  padding-top: 20%;
+}
+.rtm-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/rtm-thumbnail.png");
+  background-position: top;
+  background-repeat: no-repeat;
+
+  font-size: 2em;
+  padding-top: 20%;
+}
+
+.box-label-std{
+  position: absolute;
+  width: 100%;
+  bottom:0;
+  background-color: rgba(249, 148, 6, 0.75);
+  height: 20%;
+  color: black;
+}
+.box-label-rtm{
+  position: absolute;
+  width: 100%;
+  bottom:0;
+  background-color: #b0ffee;
+  border-top: solid 1px #01c6ae;
+  height: 20%;
+  color: black;
+}
+
+
+
+
+
+/* /Portfolio main page ----------------------------------------------------------------------------------------------*/
 .headertexthome{
   margin-top: 100px;
   margin-left: 20px;
@@ -34,7 +185,7 @@ font-family: 'PT Sans', sans-serif;, Helvetica, Arial, sans-serif;
 
 .bodyportfolio{
   background-color: #e4f4f3;
-  min-height: 100%;
+  min-height: 100vh;
 }
 
 .portfolio h1{
