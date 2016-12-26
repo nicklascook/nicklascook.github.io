@@ -45,6 +45,9 @@ font-family: 'PT Sans', sans-serif;, Helvetica, Arial, sans-serif;
 .icon-bars:before {
   content: "\e903";
 }
+.icon-chevron-with-circle-right:before {
+  content: "\e904";
+}
 /* /ICOMOON ----------------------------------------------------------------------------------------------*/
 
 /* NAVIGATION BAR ----------------------------------------------------------------------------------------------*/
@@ -115,14 +118,13 @@ a:hover, .nav-item :hover, .navbarname :hover{
 /* Portfolio main page ----------------------------------------------------------------------------------------------*/
 
 
-
 .portfoliobox {
   border: 1px solid #01c6ae;
   position: relative;
   text-align: center;
   width: 30%;
   display: inline-block;
-  margin-top: 10vh;
+  margin-top: 13vh;
   margin-left: 13.5vw;
 }
 
@@ -130,6 +132,10 @@ a:hover, .nav-item :hover, .navbarname :hover{
   content: "";
   display: block;
   padding-bottom: 100%;
+}
+
+.portfoliobox h4{
+  margin-top: 15px;
 }
 
 .std-content {
@@ -155,41 +161,49 @@ a:hover, .nav-item :hover, .navbarname :hover{
   padding-top: 20%;
 }
 
-.box-label-std{
+.box-label{
   position: absolute;
   width: 100%;
   bottom:0;
-  background-color: rgba(249, 148, 6, 0.75);
-  height: 20%;
-  color: black;
-}
-.box-label-rtm{
-  position: absolute;
-  width: 100%;
-  bottom:0;
-  background-color: #b0ffee;
+  background-color: #01a093;
   border-top: solid 1px #01c6ae;
-  height: 20%;
-  color: black;
+  height: 12%;
+  color: white;
+}
+
+.viewmorebtn{
+  margin-top: 1%;
+  opacity: 0;
+  border-radius: 20px;
+  width: 130px;
+  background-color: #01c6ae;
+  border: 2px solid white;
+  position: relative;
+  height: auto;
+}
+
+.viewmorebtn:hover, .viewmorebtn:focus, .viewmorebtn:active, .viewmorebtn.active, .open>.dropdown-toggle.viewmorebtn{
+  color: #fff;
+   background-color: #005f63;
+   border-color: white; /*set the color you want here*/
+}
+
+.positionarrow{
+  font-size: 0.9em;
+
 }
 
 
-
+.viewmorebtn span{
+  position: relative;
+  float: none;
+  padding-bottom: 150;
+}
 
 
 /* /Portfolio main page ----------------------------------------------------------------------------------------------*/
-.headertexthome{
-  margin-top: 100px;
-  margin-left: 20px;
-}
-
-.bodyportfolio{
-  background-color: #e4f4f3;
-  min-height: 100vh;
-}
-
-.portfolio h1{
-  margin-top: 40px;
+.portfolio h2{
+  margin-top: 10px;
   margin-bottom: 30px;
   color: #26A65B;
   font-size: 3.0em;
@@ -203,11 +217,23 @@ a:hover, .nav-item :hover, .navbarname :hover{
 
 .portfolio p{
   color: #3F4441;
+  margin-top: -230px;
+  margin-left: 50px;
 }
 
+.backbtn{
+  margin-right:50px;
+}
+
+
+
+
+
+
+
 .portfolio-image{
+  overflow: none;
   margin-left: 10px;
-  margin-top: -120px;
   transform: skewY(6deg);
   border: solid 2px rgb(146, 176, 191);
   -webkit-box-shadow: 11px 10px 33px 0px rgba(66,66,66,0.7);
