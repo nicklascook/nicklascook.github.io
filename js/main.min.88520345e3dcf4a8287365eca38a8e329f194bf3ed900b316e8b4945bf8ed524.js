@@ -1,0 +1,11 @@
+document.addEventListener("DOMContentLoaded",function(){AOS.init({once:true});const navPopover=document.querySelector(".nav-popover");const navServices=document.querySelector("[data-section=Services]")
+const navProjects=document.querySelector("[data-section=Projects]")
+const navCompany=document.querySelector("[data-section=Company]")
+const navProducts=document.querySelector("[data-section=Products]")
+for(var navItem of document.querySelectorAll(".nav-items>*")){navItem.addEventListener('mouseenter',function(event){setNavPosition(this);})
+navItem.addEventListener('mouseleave',function(event){handleNavLeave(this,event);})}
+navPopover.addEventListener('mouseleave',function(event){handleNavLeave(this,event);})
+function setNavPosition(element){navPopover.style.display="block";let currentlyActiveNav=document.querySelector(".nav-popover-section.active");if(currentlyActiveNav)currentlyActiveNav.classList.remove("active");document.querySelector(`#${element.dataset.section}Nav`).classList+=" active";document.querySelector(".nav-popover-content").classList="nav-popover-content";document.querySelector(".nav-popover-content").classList+=` ${element.dataset.section}`;if(element.dataset.section==="Services")popoverWidth=350;if(element.dataset.section==="Projects")popoverWidth=370;if(element.dataset.section==="Company")popoverWidth=250;if(element.dataset.section==="Products")popoverWidth=250;let navItemWidth=element.offsetWidth;var rect=element.getBoundingClientRect();navPopover.style.left=(rect.left-(popoverWidth/2)+(navItemWidth/2))+"px";}
+function handleNavLeave(element,event){setTimeout(()=>{let mouseIsOver=Array.from(document.querySelectorAll(':hover'));if(!mouseIsOver.includes(navPopover)&&!mouseIsOver.includes(navServices)&&!mouseIsOver.includes(navProjects)&&!mouseIsOver.includes(navCompany)&&!mouseIsOver.includes(navProducts)){navPopover.style.display="none";}},300);}
+const navMobile=document.querySelector(".nav-mobile");const navMobileIcon=document.querySelector(".nav-mobile-icon");document.querySelector(".nav-mobile-icon-wrap").addEventListener('click',function(event){if(navMobileIcon.classList.contains("active")){navMobileIcon.classList.remove("active");}else{navMobileIcon.classList+=" active";}
+if(navMobile.classList.contains("active")){navMobile.classList.remove("active");}else{navMobile.classList+=" active";}});});

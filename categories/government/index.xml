@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Government on bdna</title>
+    <link>/categories/government/</link>
+    <description>Recent content in Government on bdna</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Jan 2020 13:38:43 +1000</lastBuildDate>
+    
+	<atom:link href="/categories/government/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Aboriginal and Torres Strait Islander Education toward Employment Scheme</title>
+      <link>/posts/postatsi/</link>
+      <pubDate>Wed, 01 Jan 2020 13:38:43 +1000</pubDate>
+      
+      <guid>/posts/postatsi/</guid>
+      <description>Close the gap and help indigenous students complete year 12 and progress to employment or further education.</description>
+    </item>
+    
+  </channel>
+</rss>
