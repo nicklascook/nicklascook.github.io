@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Industries on bdna</title>
+    <link>/industries/</link>
+    <description>Recent content in Industries on bdna</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 Oct 2019 16:15:12 +1000</lastBuildDate>
+    
+	<atom:link href="/industries/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Commercial</title>
+      <link>/industries/commercial/</link>
+      <pubDate>Thu, 17 Oct 2019 16:15:12 +1000</pubDate>
+      
+      <guid>/industries/commercial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Government</title>
+      <link>/industries/government/</link>
+      <pubDate>Thu, 17 Oct 2019 16:15:12 +1000</pubDate>
+      
+      <guid>/industries/government/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Health</title>
+      <link>/industries/health/</link>
+      <pubDate>Thu, 17 Oct 2019 16:15:12 +1000</pubDate>
+      
+      <guid>/industries/health/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Public Safety &amp; Justice</title>
+      <link>/industries/publicsafety/</link>
+      <pubDate>Thu, 17 Oct 2019 16:15:12 +1000</pubDate>
+      
+      <guid>/industries/publicsafety/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

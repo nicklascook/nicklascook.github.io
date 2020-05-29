@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on bdna</title>
+    <link>/categories/</link>
+    <description>Recent content in Categories on bdna</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Jan 2020 13:38:43 +1000</lastBuildDate>
+    
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Business Implementations and Transformation</title>
+      <link>/categories/business-implementations-and-transformation/</link>
+      <pubDate>Wed, 01 Jan 2020 13:38:43 +1000</pubDate>
+      
+      <guid>/categories/business-implementations-and-transformation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Business Intelligence</title>
+      <link>/categories/business-intelligence/</link>
+      <pubDate>Wed, 01 Jan 2020 13:38:43 +1000</pubDate>
+      
+      <guid>/categories/business-intelligence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Commercial</title>
+      <link>/categories/commercial/</link>
+      <pubDate>Wed, 01 Jan 2020 13:38:43 +1000</pubDate>
+      
+      <guid>/categories/commercial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Consulting</title>
+      <link>/categories/consulting/</link>
+      <pubDate>Wed, 01 Jan 2020 13:38:43 +1000</pubDate>
+      
+      <guid>/categories/consulting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Government</title>
+      <link>/categories/government/</link>
+      <pubDate>Wed, 01 Jan 2020 13:38:43 +1000</pubDate>
+      
+      <guid>/categories/government/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Health</title>
+      <link>/categories/health/</link>
+      <pubDate>Wed, 01 Jan 2020 13:38:43 +1000</pubDate>
+      
+      <guid>/categories/health/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>People and Performance</title>
+      <link>/categories/people-and-performance/</link>
+      <pubDate>Wed, 01 Jan 2020 13:38:43 +1000</pubDate>
+      
+      <guid>/categories/people-and-performance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Public Safety and Justice</title>
+      <link>/categories/public-safety-and-justice/</link>
+      <pubDate>Fri, 01 Feb 2019 13:38:43 +1000</pubDate>
+      
+      <guid>/categories/public-safety-and-justice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software Engineering</title>
+      <link>/categories/software-engineering/</link>
+      <pubDate>Fri, 01 Feb 2019 13:38:43 +1000</pubDate>
+      
+      <guid>/categories/software-engineering/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
