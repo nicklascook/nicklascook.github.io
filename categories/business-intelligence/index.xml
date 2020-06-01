@@ -6,24 +6,15 @@
     <description>Recent content in Business Intelligence on bdna</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Jan 2020 13:38:43 +1000</lastBuildDate>
+    <lastBuildDate>Fri, 01 Nov 2019 13:38:43 +1000</lastBuildDate>
     
 	<atom:link href="/categories/business-intelligence/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Gold Coast ieMR</title>
-      <link>/posts/postgchhs/</link>
-      <pubDate>Wed, 01 Jan 2020 13:38:43 +1000</pubDate>
-      
-      <guid>/posts/postgchhs/</guid>
-      <description>Gold Coast Hospital and Health Service were early adopters of a medical record solution and recently joined with the state-wide integrated electronic Medical Record solution.</description>
-    </item>
-    
-    <item>
       <title>Change Futures</title>
       <link>/posts/postchangefutures/</link>
-      <pubDate>Tue, 01 Jan 2019 13:38:43 +1000</pubDate>
+      <pubDate>Fri, 01 Nov 2019 13:38:43 +1000</pubDate>
       
       <guid>/posts/postchangefutures/</guid>
       <description>Bdna conducted a review of the Change Futures ICT environment providing a list of recommendations to efficiently prepare Change Futures for their expansion.</description>
@@ -54,6 +45,15 @@
       
       <guid>/posts/posthiu/</guid>
       <description>Bdna successfully developed the foundations for reporting and analytics for the Queensland Health Improvement Unit and the Clinical Excellence division.</description>
+    </item>
+    
+    <item>
+      <title>Gold Coast ieMR</title>
+      <link>/posts/postgchhs/</link>
+      <pubDate>Sun, 01 Jan 2017 13:38:43 +1000</pubDate>
+      
+      <guid>/posts/postgchhs/</guid>
+      <description>Gold Coast Hospital and Health Service were early adopters of a medical record solution and recently joined with the state-wide integrated electronic Medical Record solution.</description>
     </item>
     
     <item>

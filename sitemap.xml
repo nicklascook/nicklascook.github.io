@@ -3,63 +3,48 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/posts/postatsi/</loc>
-    <lastmod>2020-01-01T13:38:43+10:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/categories/business-implementations-and-transformation/</loc>
-    <lastmod>2020-01-01T13:38:43+10:00</lastmod>
+    <lastmod>2019-11-01T13:38:43+10:00</lastmod>
   </url>
   
   <url>
     <loc>/categories/business-intelligence/</loc>
-    <lastmod>2020-01-01T13:38:43+10:00</lastmod>
+    <lastmod>2019-11-01T13:38:43+10:00</lastmod>
   </url>
   
   <url>
     <loc>/categories/</loc>
-    <lastmod>2020-01-01T13:38:43+10:00</lastmod>
+    <lastmod>2019-11-01T13:38:43+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/postchangefutures/</loc>
+    <lastmod>2019-11-01T13:38:43+10:00</lastmod>
   </url>
   
   <url>
     <loc>/categories/commercial/</loc>
-    <lastmod>2020-01-01T13:38:43+10:00</lastmod>
+    <lastmod>2019-11-01T13:38:43+10:00</lastmod>
   </url>
   
   <url>
     <loc>/categories/consulting/</loc>
-    <lastmod>2020-01-01T13:38:43+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/postgchhs/</loc>
-    <lastmod>2020-01-01T13:38:43+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/government/</loc>
-    <lastmod>2020-01-01T13:38:43+10:00</lastmod>
+    <lastmod>2019-11-01T13:38:43+10:00</lastmod>
   </url>
   
   <url>
     <loc>/categories/health/</loc>
-    <lastmod>2020-01-01T13:38:43+10:00</lastmod>
+    <lastmod>2019-11-01T13:38:43+10:00</lastmod>
   </url>
   
   <url>
     <loc>/categories/people-and-performance/</loc>
-    <lastmod>2020-01-01T13:38:43+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/postphnnt/</loc>
-    <lastmod>2020-01-01T13:38:43+10:00</lastmod>
+    <lastmod>2019-11-01T13:38:43+10:00</lastmod>
   </url>
   
   <url>
     <loc>/posts/</loc>
-    <lastmod>2020-01-01T13:38:43+10:00</lastmod>
+    <lastmod>2019-11-01T13:38:43+10:00</lastmod>
   </url>
   
   <url>
@@ -163,17 +148,22 @@
   </url>
   
   <url>
-    <loc>/posts/postchangefutures/</loc>
-    <lastmod>2019-01-01T13:38:43+10:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/posts/postchqhhs/</loc>
     <lastmod>2018-01-01T13:38:43+10:00</lastmod>
   </url>
   
   <url>
+    <loc>/categories/government/</loc>
+    <lastmod>2018-01-01T13:38:43+10:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/posts/postqhpop/</loc>
+    <lastmod>2018-01-01T13:38:43+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/postphnnt/</loc>
     <lastmod>2018-01-01T13:38:43+10:00</lastmod>
   </url>
   
@@ -185,6 +175,16 @@
   <url>
     <loc>/posts/posthiu/</loc>
     <lastmod>2017-01-01T13:38:43+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/postgchhs/</loc>
+    <lastmod>2017-01-01T13:38:43+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/postatsi/</loc>
+    <lastmod>2016-01-01T13:38:43+10:00</lastmod>
   </url>
   
   <url>
