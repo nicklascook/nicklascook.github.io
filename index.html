@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Nicklas Cook</title>
   <style>
 
     @font-face {
@@ -20,11 +20,14 @@
 
     :root {
       --text: #fff;
+      --accent: #f8ba3e;
       --background: #333;
     }
+    
     @media (prefers-color-scheme: light) {
       :root {
       --text: #333;
+      --accent: #174aae;
       --background: #fff;
       }
     }
@@ -33,6 +36,18 @@
       scroll-behavior: smooth;
       min-height: 100vh;
       font-size: 16px;
+    }
+
+    @media screen and (max-width: 1050px) {
+      html {
+        font-size: 14px;
+      }
+    }
+
+    @media screen and (max-width: 800px) {
+      html {
+        font-size: 13px;
+      }
     }
 
     body {
@@ -44,6 +59,7 @@
       letter-spacing: 0.02em;
       text-rendering: optimizeSpeed;
       line-height: 1.5;
+      margin: 0;
     }
 
     /* Remove all animations and transitions for people that prefer not to see them */
@@ -73,7 +89,8 @@
     a {
       color: var(--text);
       text-decoration: none;
-      transition: background 200ms linear;
+      transition: all 200ms linear;
+      transition-property: border background;
       padding: 10px 20px;
       border: 1px solid var(--text);
       border-radius: 2px;
@@ -82,18 +99,7 @@
       display: inline-flex;
       align-items: center;
     }
-    a:not(:first-of-type) {
-      margin-left: 30px;
-    }
-
-    a:hover {
-      color: var(--background);
-      background: var(--text);
-    }
-    a:hover svg{
-      fill: var(--background);
-    }
-
+    
     svg {
       display: inline-block;
       width: 1em;
@@ -102,7 +108,38 @@
       stroke: currentColor;
       fill: currentColor;
       margin-right: 10px;
-      fill: white;
+      fill: var(--text);
+      transition: fill 200ms linear;
+    }
+
+    a:not(:first-of-type) {
+      margin-left: 30px;
+    }
+
+    a:hover {
+      background: var(--accent);
+      color: var(--background);
+      border-color: var(--background);
+    }
+    a:hover svg{
+      fill: var(--background);
+    }
+
+    .accent {
+      color: var(--accent);
+    }
+
+
+    @media screen and (max-width: 800px) {
+      .content {
+        padding: 20px 2rem;
+      }
+      h1 {
+        margin-top: 0px;;
+      }
+      a {
+        margin-top: 5px;;
+      }
     }
 
   </style>
@@ -116,7 +153,7 @@
       A software developer based in 🌏 Brisbane, Australia.
     </p>
     <p>
-      I'm currently interested in: Web Design, React, Node, Rust & Web Assembly.
+      I'm currently interested in: <span class="accent">Web Design, React, Node, Rust & Web Assembly.</span>
     </p>
     <p>
       Have a look at my:
