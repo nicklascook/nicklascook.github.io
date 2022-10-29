@@ -22,18 +22,11 @@
 
     :root {
       --text: #fff;
-      --accent: #f8ba3e;
-      --background: #333;
+      --accent: #f4a319;
+      --accent2: #f56832;
+      --background: #2c2c42;
     }
     
-    @media (prefers-color-scheme: light) {
-      :root {
-      --text: #333;
-      --accent: #174aae;
-      --background: #fff;
-      }
-    }
-
     html {
       scroll-behavior: smooth;
       min-height: 100vh;
@@ -131,6 +124,10 @@
       color: var(--accent);
     }
 
+    .location {
+      color: var(--accent2);
+    }
+
 
     @media screen and (max-width: 800px) {
       .content {
@@ -152,7 +149,7 @@
       Nicklas Højbjerg Cook
     </h1>
     <p>
-      A software developer from 🦘 Brisbane, Australia currently based in 🌏 London, UK.
+    A software developer from 🦘 <span class="location">Brisbane, Australia</span> currently based in 🌏 <span class="location">London, UK</span>.
     </p>
     <p>
       I'm currently interested in: <span class="accent">Typescript, Node.js, React.</span>
